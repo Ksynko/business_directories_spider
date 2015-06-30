@@ -1,0 +1,314 @@
+2015-06-20 23:53:21+0300 [scrapy] INFO: Scrapy 0.24.4 started (bot: uk)
+2015-06-20 23:53:21+0300 [scrapy] INFO: Optional features available: ssl, http11, boto
+2015-06-20 23:53:21+0300 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'uk.spiders', 'HTTPCACHE_EXPIRATION_SECS': 1209600, 'RETRY_ENABLED': False, 'HTTPCACHE_IGNORE_HTTP_CODES': [403], 'SPIDER_MODULES': ['uk.spiders'], 'HTTPCACHE_ENABLED': True, 'RETRY_HTTP_CODES': [500, 502, 503, 504, 400, 403, 408], 'BOT_NAME': 'uk', 'HTTPCACHE_DIR': '/tmp/cache_dir', 'LOG_FILE': 'tmp.log'}
+2015-06-20 23:53:21+0300 [scrapy] INFO: Enabled extensions: AutoThrottle, LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-06-20 23:53:22+0300 [scrapy] INFO: Enabled downloader middlewares: UpdatedRetryMiddleware, RandomProxy, HttpProxyMiddleware, HttpAuthMiddleware, DownloadTimeoutMiddleware, RotateUserAgentMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats, HttpCacheMiddleware
+2015-06-20 23:53:22+0300 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-06-20 23:53:22+0300 [scrapy] INFO: Enabled item pipelines: DefaultFieldsPipeline, StoragePipeline
+2015-06-20 23:53:22+0300 [bizwiki] INFO: Spider opened
+2015-06-20 23:53:22+0300 [bizwiki] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-06-20 23:53:22+0300 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-06-20 23:53:22+0300 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-06-20 23:53:23+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm> (referer: None)
+2015-06-20 23:53:30+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:30+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm>
+	{u'address': u'22 Ormeau Avenue, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890626546',
+	 u'latitude': u'54.5928',
+	 u'longitude': u'-5.93043',
+	 u'name': u'Holiday Inn - Belfast',
+	 u'phone_number': u'08704009005',
+	 u'postal_code': u'BT28HS',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:30.364847',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm',
+	 u'website': u'http://www.ichotelsgroup.com/'}
+2015-06-20 23:53:30+0300 [bizwiki] DEBUG: Filtered duplicate request: <GET http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-06-20 23:53:33+0300 [bizwiki] DEBUG: Retrying <GET http://www.bizwiki.co.uk/hotels/1907907/fitzwilliam-hotel-belfast.htm> (failed 1 times): 403 Forbidden
+2015-06-20 23:53:36+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/870216/farset-international.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:36+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/870216/farset-international.htm>
+	{u'address': u'466 Springfield Road, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890899839',
+	 u'latitude': u'54.6002',
+	 u'longitude': u'-5.97003',
+	 u'name': u'Farset International',
+	 u'phone_number': u'02890899833',
+	 u'postal_code': u'BT127DW',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:36.534403',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/870216/farset-international.htm'}
+2015-06-20 23:53:38+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/870046/europa-hotel-belfast-city.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:38+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/870046/europa-hotel-belfast-city.htm>
+	{u'address': u'Great Victoria Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890327800',
+	 u'latitude': u'54.5907',
+	 u'longitude': u'-5.93446',
+	 u'name': u'Europa Hotel Belfast City',
+	 u'phone_number': u'02890271066',
+	 u'postal_code': u'BT27AP',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:38.126539',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/870046/europa-hotel-belfast-city.htm',
+	 u'website': u'http://www.hastingshotels.com'}
+2015-06-20 23:53:39+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/869549/days-hotel-belfast.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:39+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/869549/days-hotel-belfast.htm>
+	{u'address': u'Hope Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'latitude': u'54.5933',
+	 u'longitude': u'-5.93592',
+	 u'name': u'Days Hotel Belfast',
+	 u'phone_number': u'02890242494',
+	 u'postal_code': u'BT125EE',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:39.223283',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/869549/days-hotel-belfast.htm',
+	 u'website': u'http://www.dayshotelbelfast.com'}
+2015-06-20 23:53:40+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1889877/benedicts-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:40+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1889877/benedicts-hotel.htm>
+	{u'address': u'7-21 Bradbury Pl, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'name': u'Benedicts Hotel',
+	 u'phone_number': u'02890591999',
+	 u'postal_code': u'BT71RQ',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:40.130593',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1889877/benedicts-hotel.htm'}
+2015-06-20 23:53:41+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/867801/belfast-city-travel-lodge.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:41+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/867801/belfast-city-travel-lodge.htm>
+	{u'address': u'15 Brunswick Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890232999',
+	 u'latitude': u'54.5953',
+	 u'longitude': u'-5.93326',
+	 u'name': u'Belfast City Travel Lodge',
+	 u'phone_number': u'02890333555',
+	 u'postal_code': u'BT27GE',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:41.315164',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/867801/belfast-city-travel-lodge.htm'}
+2015-06-20 23:53:41+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1704792/belfast-central-travel-lodge.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:41+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1704792/belfast-central-travel-lodge.htm>
+	{u'address': u'15 Brunswick St, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'latitude': u'54.595167',
+	 u'longitude': u'-5.933149',
+	 u'name': u'Belfast Central Travel Lodge',
+	 u'phone_number': u'02890333555',
+	 u'postal_code': u'BT27GE',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:41.692997',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1704792/belfast-central-travel-lodge.htm'}
+2015-06-20 23:53:42+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1886172/balmoral-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:42+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1886172/balmoral-hotel.htm>
+	{u'address': u'Blacks Rd, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'name': u'Balmoral Hotel',
+	 u'phone_number': u'02890301234',
+	 u'postal_code': u'BT100ND',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:42.613477',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1886172/balmoral-hotel.htm'}
+2015-06-20 23:53:43+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/867584/balmoral-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:43+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/867584/balmoral-hotel.htm>
+	{u'address': u'Blacks Road, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890601455',
+	 u'latitude': u'54.601295',
+	 u'longitude': u'-5.98066',
+	 u'name': u'Balmoral Hotel',
+	 u'phone_number': u'02890301234',
+	 u'postal_code': u'BT100NF',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:43.500147',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/867584/balmoral-hotel.htm'}
+2015-06-20 23:53:44+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/874291/ramada-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:44+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/874291/ramada-hotel.htm>
+	{u'address': u'Milltown Road, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890923600',
+	 u'latitude': u'54.5517',
+	 u'longitude': u'-5.94675',
+	 u'name': u'Ramada Hotel',
+	 u'phone_number': u'02890923500',
+	 u'postal_code': u'BT87XP',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:44.255175',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/874291/ramada-hotel.htm',
+	 u'website': u'http://www.ramadabelfast.com'}
+2015-06-20 23:53:44+0300 [bizwiki] DEBUG: Retrying <GET http://www.bizwiki.co.uk/hotels/867250/andras-house.htm> (failed 1 times): 403 Forbidden
+2015-06-20 23:53:45+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/870075/holiday-inn-belfast-university-street.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:45+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/870075/holiday-inn-belfast-university-street.htm>
+	{u'address': u'106 University Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890311910',
+	 u'latitude': u'54.586',
+	 u'longitude': u'-5.92776',
+	 u'name': u'Holiday Inn - Belfast University Street',
+	 u'phone_number': u'02890311909',
+	 u'postal_code': u'BT71HP',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:45.817997',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/870075/holiday-inn-belfast-university-street.htm'}
+2015-06-20 23:53:46+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1939469/travelodge-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:46+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1939469/travelodge-hotel.htm>
+	{u'address': u'15 Brunswick Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890232999',
+	 u'latitude': u'54.595167',
+	 u'longitude': u'-5.933149',
+	 u'name': u'Travelodge Hotel',
+	 u'phone_number': u'08719846188',
+	 u'postal_code': u'BT27GE',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:46.766795',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1939469/travelodge-hotel.htm',
+	 u'website': u'http://www.travelodge.co.uk/hotels/224/belfast-central-hotel'}
+2015-06-20 23:53:47+0300 [bizwiki] DEBUG: Retrying <GET http://www.bizwiki.co.uk/hotels/1546744/ten-square-luxury-hotel.htm> (failed 1 times): 403 Forbidden
+2015-06-20 23:53:48+0300 [bizwiki] DEBUG: Retrying <GET http://www.bizwiki.co.uk/hotels/1750406/malmaison.htm> (failed 1 times): 403 Forbidden
+2015-06-20 23:53:49+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1777568/malone-lodge-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:49+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1777568/malone-lodge-hotel.htm>
+	{u'address': u'60 Eglantine Av, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'latitude': u'54.581626',
+	 u'longitude': u'-5.942485',
+	 u'name': u'Malone Lodge Hotel',
+	 u'phone_number': u'02890388000',
+	 u'postal_code': u'BT96DY',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:49.044146',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1777568/malone-lodge-hotel.htm'}
+2015-06-20 23:53:50+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/872254/lansdowne-court-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:50+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/872254/lansdowne-court-hotel.htm>
+	{u'address': u'657-695 Antrim Road, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890781588',
+	 u'latitude': u'54.6339',
+	 u'longitude': u'-5.93593',
+	 u'name': u'Lansdowne Court Hotel',
+	 u'phone_number': u'02890773317',
+	 u'postal_code': u'BT154EF',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:50.509124',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/872254/lansdowne-court-hotel.htm'}
+2015-06-20 23:53:51+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/874446/ibis-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:51+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/874446/ibis-hotel.htm>
+	{u'address': u'75 University Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890333399',
+	 u'latitude': u'54.5859',
+	 u'longitude': u'-5.9312',
+	 u'name': u'Ibis Hotel',
+	 u'phone_number': u'02890333366',
+	 u'postal_code': u'BT71HL',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:51.777380',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/874446/ibis-hotel.htm',
+	 u'website': u'http://www.renshaws.com'}
+2015-06-20 23:53:52+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/871344/hilton-belfast-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:52+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/871344/hilton-belfast-hotel.htm>
+	{u'address': u'4 Lanyon Place, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890277277',
+	 u'latitude': u'54.5964',
+	 u'longitude': u'-5.91917',
+	 u'name': u'Hilton Belfast Hotel',
+	 u'phone_number': u'02890277000',
+	 u'postal_code': u'BT13LP',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:52.902064',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/871344/hilton-belfast-hotel.htm',
+	 u'website': u'http://www.hilton.com'}
+2015-06-20 23:53:54+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/873652/gelstons-corner.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:54+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/873652/gelstons-corner.htm>
+	{u'address': u'158 Holywood Road, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890471417',
+	 u'latitude': u'54.6012',
+	 u'longitude': u'-5.87871',
+	 u'name': u'Gelstons Corner',
+	 u'phone_number': u'02890656520',
+	 u'postal_code': u'BT41PB',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:54.209262',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/873652/gelstons-corner.htm',
+	 u'website': u'http://www.parkavenuehotel.co.uk'}
+2015-06-20 23:53:55+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1907907/fitzwilliam-hotel-belfast.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:55+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1907907/fitzwilliam-hotel-belfast.htm>
+	{u'address': u'1-3 Great Victoria St, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'name': u'Fitzwilliam Hotel Belfast',
+	 u'phone_number': u'02890442080',
+	 u'postal_code': u'BT27BQ',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:55.077000',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1907907/fitzwilliam-hotel-belfast.htm'}
+2015-06-20 23:53:56+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/867250/andras-house.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:56+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/867250/andras-house.htm>
+	{u'address': u'60 Great Victoria Street, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890878797',
+	 u'latitude': u'54.5941',
+	 u'longitude': u'-5.93386',
+	 u'name': u'Andras House Ltd',
+	 u'phone_number': u'02890878787',
+	 u'postal_code': u'BT27BB',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:56.197159',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/867250/andras-house.htm',
+	 u'website': u'http://www.andrashouse.co.uk'}
+2015-06-20 23:53:57+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1546744/ten-square-luxury-hotel.htm> (referer: http://www.bizwiki.co.uk/hotels/county-antrim/belfast.htm)
+2015-06-20 23:53:57+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1546744/ten-square-luxury-hotel.htm>
+	{u'address': u'10 Donegall Square South, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'fax_number': u'02890241001',
+	 u'latitude': u'54.5958',
+	 u'longitude': u'-5.93051',
+	 u'name': u'Ten Square Luxury Hotel',
+	 u'phone_number': u'02890241001',
+	 u'postal_code': u'BT15JD',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:57.214376',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1546744/ten-square-luxury-hotel.htm',
+	 u'website': u'http://www.tensquare.co.uk'}
+2015-06-20 23:53:58+0300 [bizwiki] DEBUG: Crawled (200) <GET http://www.bizwiki.co.uk/hotels/1750406/malmaison.htm> (referer: http://www.bizwiki.co.uk/hotels/871385/holiday-inn-belfast.htm)
+2015-06-20 23:53:58+0300 [bizwiki] DEBUG: Scraped from <200 http://www.bizwiki.co.uk/hotels/1750406/malmaison.htm>
+	{u'address': u'34-38 Victoria St, Belfast, County Antrim',
+	 u'category': u'Hotels',
+	 u'latitude': u'54.599871',
+	 u'longitude': u'-5.924051',
+	 u'name': u'Malmaison',
+	 u'phone_number': u'02890220200',
+	 u'postal_code': u'BT13GH',
+	 'source': u'bizwiki',
+	 'updated': u'2015-06-20 23:53:58.076751',
+	 u'url': u'http://www.bizwiki.co.uk/hotels/1750406/malmaison.htm'}
+2015-06-20 23:53:58+0300 [bizwiki] INFO: Closing spider (finished)
+2015-06-20 23:53:58+0300 [bizwiki] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 12925,
+	 'downloader/request_count': 26,
+	 'downloader/request_method_count/GET': 26,
+	 'downloader/response_bytes': 127976,
+	 'downloader/response_count': 26,
+	 'downloader/response_status_count/200': 22,
+	 'downloader/response_status_count/403': 4,
+	 'dupefilter/filtered': 435,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 6, 20, 20, 53, 58, 97922),
+	 'httpcache/firsthand': 26,
+	 'httpcache/miss': 26,
+	 'httpcache/store': 22,
+	 'httpcache/uncacheable': 4,
+	 'item_scraped_count': 21,
+	 'log_count/DEBUG': 50,
+	 'log_count/INFO': 7,
+	 'request_depth_max': 3,
+	 'response_received_count': 22,
+	 'scheduler/dequeued': 26,
+	 'scheduler/dequeued/memory': 26,
+	 'scheduler/enqueued': 26,
+	 'scheduler/enqueued/memory': 26,
+	 'start_time': datetime.datetime(2015, 6, 20, 20, 53, 22, 561342)}
+2015-06-20 23:53:58+0300 [bizwiki] INFO: Spider closed (finished)
